@@ -1,7 +1,8 @@
 import { Request, Response } from "express";
-const mongoose = require("mongoose")
-const cors = require("cors")
-const express = require("express")
+// const mongoose = require("mongoose")
+import mongoose from 'mongoose'
+import express from 'express'
+import cors from 'cors'
 
 import todoRoutes from "./routes/todo.route"
 import { Callback } from "mongoose";
