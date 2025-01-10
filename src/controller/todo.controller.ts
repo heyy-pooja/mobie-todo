@@ -1,8 +1,8 @@
 import { Error } from "mongoose";
-import Todo from "../model/Todo"
 import { Request, Response } from 'express';
 import { upload } from "../utils/upload";
 const asyncHandler = require("express-async-handler")
+import Todo from "../model/Todo";
 import { v2 as cloudinary } from 'cloudinary';
 import dotenv from 'dotenv'
 dotenv.config()
